@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 3px;
+box-sizing: border-box;    
+}
+
+body{
+    background-color: rgb(155, 240, 240);
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+
+}
+img{
+    width: 300px;
+    height: auto;
+    margin: 3px;
+    border: 6px double black;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(160, 233, 233);
+    overflow: auto;
+}
+.mobile{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
+
+.laptop{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
+
+.camera{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 350px;
+}
